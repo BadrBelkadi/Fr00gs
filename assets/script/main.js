@@ -1,4 +1,21 @@
 
+function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+   }
+
+async function back(e){
+
+    await sleep(200);
+
+    e.src='assets/fr00gs_logo.png';
+}
+async function forward(e){
+
+    await sleep(200);
+    e.src='assets/fr00g_logo.png';
+}
+
+
 function openMenu() {
     document.getElementById("mobileMenu").style.width = "300px";
     document.querySelectorAll("body :not(.notBlur)")

